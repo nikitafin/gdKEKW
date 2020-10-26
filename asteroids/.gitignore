@@ -58,6 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 Library/
+Library/*
 Temp/
 SwitchIL2CPPCache/
 SwitchIL2CPPStats/

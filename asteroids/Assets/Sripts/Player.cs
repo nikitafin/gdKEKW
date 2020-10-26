@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    // TODO: change to load from resources
+    public GameObject bulletPrefab;
+
     // component stuff
     private Animator animator;
     private Transform localTransform;
@@ -28,6 +31,12 @@ public class Player : MonoBehaviour
     {
         engineInput = Input.GetAxis("Vertical");
         turnInput = Input.GetAxis("Horizontal");
+        if (Input.GetButtonDown("Shoot"))
+        {
+            var bullet = GameObject.Instantiate(bulletPrefab, transform.position, transform.rotation);
+            var bulletScript = bullet.GetComponent<Bullet>();
+            bulletScript.Direction = direction;
+        }
 
         animator.SetBool("isOn", engineInput != 0);
     }

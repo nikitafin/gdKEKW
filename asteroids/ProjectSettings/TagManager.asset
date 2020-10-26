@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Background
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - 
   - Background
   - Player
-  - 
+  - Bullet
   - 
   - 
   - 
@@ -44,6 +45,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3932253553
+    locked: 0
+  - name: Bullet
+    uniqueID: 3255649239
     locked: 0
   - name: Objects
     uniqueID: 661572207

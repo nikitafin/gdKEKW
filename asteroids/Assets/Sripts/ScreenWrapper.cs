@@ -16,45 +16,6 @@ namespace Sripts
 
         #endregion
 
-        #region Properties
-
-        public static float ScreenLeft
-        {
-            get
-            {
-                Resize();
-                return screenLeft;
-            }
-        }
-
-        public static float ScreenRight
-        {
-            get
-            {
-                Resize();
-                return screenRight;
-            }
-        }
-
-        public static float ScreenTop
-        {
-            get
-            {
-                Resize();
-                return screenTop;
-            }
-        }
-
-        public static float ScreenBottom
-        {
-            get
-            {
-                Resize();
-                return screenBottom;
-            }
-        }
-
-        #endregion
 
         #region Methods
 
@@ -104,6 +65,46 @@ namespace Sripts
             }
 
             gameObject.transform.position = position;
+        }
+
+        #endregion
+
+        #region Properties
+
+        public static float ScreenLeft
+        {
+            get
+            {
+                Resize();
+                return screenLeft;
+            }
+        }
+
+        public static float ScreenRight
+        {
+            get
+            {
+                Resize();
+                return screenRight;
+            }
+        }
+
+        public static float ScreenTop
+        {
+            get
+            {
+                Resize();
+                return screenTop;
+            }
+        }
+
+        public static float ScreenBottom
+        {
+            get
+            {
+                Resize();
+                return screenBottom;
+            }
         }
 
         #endregion
