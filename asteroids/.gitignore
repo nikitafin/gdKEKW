@@ -62,3 +62,4 @@ Library/*
 Temp/
 SwitchIL2CPPCache/
 SwitchIL2CPPStats/
+.idea/
