@@ -6,13 +6,13 @@ namespace Sripts
     {
         private Timer timerScript;
         private Vector2 direction;
-        private const float BulletSpeed = 5f;
+        private const float BulletSpeed = 7f;
 
         void Start()
         {
             timerScript = GetComponent<Timer>();
             // set lifetime to 2 second
-            timerScript.TimeRemaining = 2;
+            timerScript.TimeRemaining = 2f;
             timerScript.Run();
         }
 
