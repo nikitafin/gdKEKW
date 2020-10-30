@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Background
   - Bullet
+  - Asteroid
+  - Planet
   layers:
   - Default
   - TransparentFX
@@ -18,8 +20,8 @@ TagManager:
   - Background
   - Player
   - Bullet
-  - 
-  - 
+  - Asteroid
+  - Planet
   - 
   - 
   - 
@@ -46,9 +48,15 @@ TagManager:
   - name: Background
     uniqueID: 3932253553
     locked: 0
+  - name: Planet
+    uniqueID: 2213619329
+    locked: 0
   - name: Bullet
     uniqueID: 3255649239
     locked: 0
   - name: Objects
     uniqueID: 661572207
+    locked: 0
+  - name: Asteroid
+    uniqueID: 620635005
     locked: 0

@@ -66,7 +66,6 @@ public class Player : MonoBehaviour
         Vector2 pos = localTransform.position;
         pos += engineVelocity * Time.deltaTime;
         localTransform.position = pos;
-        var o = gameObject;
-        ScreenWrapper.Wrap(ref o);
+        ScreenWrapper.Wrap(gameObject);
     }
 }

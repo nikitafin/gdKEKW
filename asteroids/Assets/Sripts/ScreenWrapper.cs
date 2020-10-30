@@ -51,7 +51,7 @@ namespace Sripts
             }
         }
 
-        public static void Wrap(ref GameObject gameObject)
+        public static void Wrap(GameObject gameObject)
         {
             Vector2 position = gameObject.transform.position;
             if (position.x > ScreenRight || position.x < ScreenLeft)

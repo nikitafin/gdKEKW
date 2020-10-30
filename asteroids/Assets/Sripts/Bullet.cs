@@ -1,18 +1,21 @@
-﻿using UnityEngine;
+﻿using System.ComponentModel.Design;
+using UnityEngine;
 
 namespace Sripts
 {
     public class Bullet : MonoBehaviour
     {
         private Timer timerScript;
+        private Animator animator;
         private Vector2 direction;
-        private const float BulletSpeed = 7f;
+        private const float BulletSpeed = 14f;
 
         void Start()
         {
             timerScript = GetComponent<Timer>();
+            animator = GetComponent<Animator>();
             // set lifetime to 2 second
-            timerScript.TimeRemaining = 2f;
+            timerScript.TimeRemaining = 2.0f;
             timerScript.Run();
         }
 
@@ -20,8 +23,14 @@ namespace Sripts
         {
             if (!timerScript.IsRunning)
             {
-                Destroy(gameObject);
+                Destrucion();
             }
+        }
+
+        public void Destrucion()
+        {
+            animator.Play("BulletExplosion 0");
+            Destroy(gameObject, 0.05f);
         }
 
         private void FixedUpdate()
@@ -29,8 +38,7 @@ namespace Sripts
             Vector2 position = transform.position;
             position += direction * (BulletSpeed * Time.deltaTime);
             transform.position = position;
-            var o = gameObject;
-            ScreenWrapper.Wrap(ref o);
+            ScreenWrapper.Wrap(gameObject);
         }
 
 

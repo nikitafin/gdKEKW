@@ -1,38 +1,78 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections.Generic;
-using Sripts;
+using Unity.Mathematics;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
-
-public class Main : MonoBehaviour
+namespace Sripts
 {
-    private GameLevel currentLevel = GameLevel.First;
-
-    void Update()
+    public class Main : MonoBehaviour
     {
-        if (Input.GetMouseButtonDown(0))
+        public Sprite[] bigSprites;
+        public Sprite[] mediumSprites;
+        public Sprite[] smallSprites;
+
+        public GameObject asteroidPrefab;
+
+        private GameLevel currentLevel = GameLevel.First;
+        private Dictionary<AsteroidSize, Sprite[]> asteroidSizeToSprite = new Dictionary<AsteroidSize, Sprite[]>();
+
+        private void Start()
         {
-            if (currentLevel == GameLevel.First)
+            // Save various of asteroid types in dict,
+            if (bigSprites != null)
             {
-                currentLevel = GameLevel.Second;
+                asteroidSizeToSprite.Add(AsteroidSize.Large, bigSprites);
             }
-            else if (currentLevel == GameLevel.Second)
+
+            if (mediumSprites != null)
             {
-                currentLevel = GameLevel.Third;
+                asteroidSizeToSprite.Add(AsteroidSize.Medium, mediumSprites);
             }
-            else
+
+            if (smallSprites != null)
             {
-                currentLevel = GameLevel.First;
+                asteroidSizeToSprite.Add(AsteroidSize.Small, smallSprites);
             }
+
+            // Todo: Change asteroid counts and position to depend on level config
+            // for now generate 4 asteroid like in classic game
+            GenerateAsteroid(AsteroidSize.Large);
+            GenerateAsteroid(AsteroidSize.Large);
+            GenerateAsteroid(AsteroidSize.Large);
+            GenerateAsteroid(AsteroidSize.Large);
         }
+
+        private void GenerateAsteroid(AsteroidSize asteroidSize)
+        {
+            // x < 0.3 or x > 0.7
+            // don't allow generate asteroid close to ship
+            float randX = Random.Range(0.0f, 1.0f) > 0.5f ? Random.Range(0.0f, 0.3f) : Random.Range(0.7f, 1.0f);
+            //
+            float randY = Random.Range(0.0f, 1.0f);
+
+            Vector2 randomPositionOnScreen =
+                Camera.main.ViewportToWorldPoint(new Vector2(randX, randY));
+
+            var tempAsteroid = Instantiate(asteroidPrefab,
+                randomPositionOnScreen,
+                quaternion.identity).GetComponent<Asteroid>();
+            // Set size and init sprite cause of this size
+            tempAsteroid.AsterdSize = asteroidSize;
+            tempAsteroid.InitSpite();
+        }
+
+
+        #region Properties
+
+        public GameLevel CurrentLevel
+        {
+            get => currentLevel;
+            set => currentLevel = value;
+        }
+
+        public Dictionary<AsteroidSize, Sprite[]> AsteroidSizeToSprite => asteroidSizeToSprite;
+
+        #endregion
     }
-
-    #region Properties
-
-    public GameLevel CurrentLevel
-    {
-        get => currentLevel;
-        set => currentLevel = value;
-    }
-
-    #endregion
 }
