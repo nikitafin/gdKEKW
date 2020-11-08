@@ -5,9 +5,10 @@ namespace Resources.Scripts
 {
     public class BasketController : MonoBehaviour
     {
+        private GameController gameControllerScript;
+
         private Rigidbody2D rd2D;
         private BoxCollider2D bc2d;
-
 
         [SerializeField] private float xVelocity;
         private float inputAmount;
@@ -16,6 +17,7 @@ namespace Resources.Scripts
 
         private void Awake()
         {
+            gameControllerScript = GameObject.FindWithTag("GameControllerTag").GetComponent<GameController>();
             rd2D = GetComponent<Rigidbody2D>();
             bc2d = GetComponent<BoxCollider2D>();
         }
@@ -41,13 +43,13 @@ namespace Resources.Scripts
             rd2D.MovePosition(newPos);
         }
 
-        // private void ClampPosition(ref Vector2 newPos)
-        // {
-        //     float possibleX = Mathf.Clamp(newPos.x, ScreenWrapper.ScreenLeft, ScreenWrapper.ScreenRight);
-        //     float possibleY = Mathf.Clamp(newPos.y, ScreenWrapper.ScreenBottom, ScreenWrapper.ScreenTop);
-        //
-        //     newPos.x = possibleX;
-        //     newPos.y = possibleY;
-        // }
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Fruit"))
+            {
+                Destroy(other.gameObject);
+                ++gameControllerScript.Score;
+            }
+        }
     }
 }

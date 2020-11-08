@@ -8,6 +8,8 @@ TagManager:
   - Tree
   - PosibleSpawn
   - Apple
+  - GameControllerTag
+  - Fruit
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Basket
   - Tree
   - Apple
-  - 
+  - Fruit
   - 
   - 
   - 
@@ -44,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tree
+    uniqueID: 1588430833
     locked: 0
   - name: InGameObjects
     uniqueID: 3939269175

@@ -10,9 +10,11 @@
         <e p="Resources" t="Include">
           <e p="Scripts" t="Include">
             <e p="BasketController.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
             <e p="GameInitializer.cs" t="Include" />
             <e p="ScreenWrapper.cs" t="Include" />
             <e p="SetCameraBounds.cs" t="Include" />
+            <e p="SpawnFruit.cs" t="Include" />
           </e>
         </e>
       </e>

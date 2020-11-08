@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a30ade-099b-402d-bbd0-eedcfda06627" name="Default Changelist" comment="" />
+    <list default="true" id="e8a30ade-099b-402d-bbd0-eedcfda06627" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Assets/apple-red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Assets/apple-red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +43,9 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SetCameraBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/ScreenWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnFruit.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604758932678</updated>
       <workItem from="1604758946856" duration="9342000" />
+      <workItem from="1604843600723" duration="5859000" />
     </task>
     <servers />
   </component>
@@ -109,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
