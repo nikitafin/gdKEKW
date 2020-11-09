@@ -54,6 +54,11 @@ namespace Resources.Scripts
 
         private void FixedUpdate()
         {
+            if (Random.value < 0.005f)
+            {
+                xVelocity = -xVelocity;
+            }
+
             Vector2 newPos = rd2D.position + Vector2.right * (xVelocity * Time.fixedDeltaTime);
             newPos.x = Mathf.Clamp(newPos.x, ScreenWrapper.ScreenLeft + halfWidth,
                 ScreenWrapper.ScreenRight - halfWidth);

@@ -10,6 +10,7 @@ TagManager:
   - Apple
   - GameControllerTag
   - Fruit
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: InGameObjects
     uniqueID: 3939269175
+    locked: 0
+  - name: UI
+    uniqueID: 2426653707
     locked: 0

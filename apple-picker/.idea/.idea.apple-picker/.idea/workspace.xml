@@ -23,10 +23,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apple-picker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Assets/apple-red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Assets/apple-red.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Apple.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Apple.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Banana.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Banana.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Pear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Pear.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnFruit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnFruit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +42,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SetCameraBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/ScreenWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameInitializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/BasketController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Fruit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/LifesCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnFruit.cs" />
       </list>
     </option>
@@ -103,6 +113,7 @@
       <updated>1604758932678</updated>
       <workItem from="1604758946856" duration="9342000" />
       <workItem from="1604843600723" duration="5859000" />
+      <workItem from="1604936712497" duration="8245000" />
     </task>
     <servers />
   </component>
@@ -127,9 +138,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604765007273">
+    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604944182676">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604765007273" />
+    <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604944182676" />
   </component>
 </project>
