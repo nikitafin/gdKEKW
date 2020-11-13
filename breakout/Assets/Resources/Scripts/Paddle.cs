@@ -11,10 +11,18 @@ namespace Resources.Scripts
 
         [SerializeField] [Header("Set In Editor")]
         private float xVelocity;
+        [SerializeField]
+        private float BounceAngleHalfRange = 60f;
 
         private float horizontalInput;
         private float halfWidth;
         private float halfHeight;
+
+        public Vector2 Position
+        {
+            get => transform.position;
+            set => transform.position = value;
+        }
 
 
         private void Awake()
@@ -56,7 +64,7 @@ namespace Resources.Scripts
 
             float paddleCenterOffset = transform.position.x - other.gameObject.transform.position.x;
             paddleCenterOffset /= halfWidth;
-            float angleOffset = paddleCenterOffset * 60 * Mathf.Deg2Rad;
+            float angleOffset = paddleCenterOffset * BounceAngleHalfRange * Mathf.Deg2Rad;
             float angle = angleOffset + Mathf.PI / 2;
             Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
             other.gameObject.GetComponent<Ball>().SetDirection(direction);

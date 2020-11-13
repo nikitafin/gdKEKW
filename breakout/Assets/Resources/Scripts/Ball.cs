@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Resources.Scripts
 {
@@ -8,7 +9,7 @@ namespace Resources.Scripts
         private BoxCollider2D bc2D;
 
 
-        private const float StartAngle = 30;
+        private const float StartAngle = 120;
         private const float BallImpulseForce = 5;
 
 
@@ -31,9 +32,11 @@ namespace Resources.Scripts
             rb2D.velocity = newDir * rb2D.velocity.magnitude;
         }
 
-        void Start()
+
+        public Vector2 Position
         {
-            Init();
+            get => transform.position;
+            set => transform.position = value;
         }
     }
 }
