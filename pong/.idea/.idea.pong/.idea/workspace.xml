@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="876c0180-7e64-4544-bcdd-fd6702527f2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../breakout/.idea/.idea.breakout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breakout/.idea/.idea.breakout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pong/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pong/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Script/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Script/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Script/ScreenWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Script/ScreenWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Resources/Script/FPSCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Script/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Script/ScreenWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Script/Player.cs" />
       </list>
     </option>
@@ -53,7 +59,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -85,7 +91,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605342793435</updated>
       <workItem from="1605342825670" duration="3553000" />
-      <workItem from="1605631885737" duration="4322000" />
+      <workItem from="1605631885737" duration="5035000" />
+      <workItem from="1605886455859" duration="231000" />
+      <workItem from="1605886780491" duration="277000" />
+      <workItem from="1605887263276" duration="2934000" />
     </task>
     <servers />
   </component>
@@ -110,6 +119,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="184" key="SettingsEditor" timestamp="1605887056748">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605887056748" />
     <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605633110720">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

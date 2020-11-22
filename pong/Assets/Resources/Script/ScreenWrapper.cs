@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Resources.Scripts
+namespace Resources.Script
 {
     public static class ScreenWrapper
     {

@@ -11,6 +11,8 @@
             <e p="FPSCounter.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
+            <e p="ScreenEdgeColliders.cs" t="Include" />
+            <e p="ScreenWrapper.cs" t="Include" />
           </e>
         </e>
       </e>
