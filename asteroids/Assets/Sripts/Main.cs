@@ -17,7 +17,7 @@ namespace Sripts
         private GameLevel currentLevel = GameLevel.First;
         private Dictionary<AsteroidSize, Sprite[]> asteroidSizeToSprite = new Dictionary<AsteroidSize, Sprite[]>();
 
-        private void Start()
+        private void Awake()
         {
             // Save various of asteroid types in dict,
             if (bigSprites != null)
@@ -47,7 +47,9 @@ namespace Sripts
         {
             // x < 0.3 or x > 0.7
             // don't allow generate asteroid close to ship
-            float randX = Random.Range(0.0f, 1.0f) > 0.5f ? Random.Range(0.0f, 0.3f) : Random.Range(0.7f, 1.0f);
+            float randX = Random.Range(0.0f, 1.0f) > 0.5f
+                ? Random.Range(0.0f, 0.3f)
+                : Random.Range(0.7f, 1.0f);
             //
             float randY = Random.Range(0.0f, 1.0f);
 
@@ -55,11 +57,11 @@ namespace Sripts
                 Camera.main.ViewportToWorldPoint(new Vector2(randX, randY));
 
             var tempAsteroid = Instantiate(asteroidPrefab,
-                randomPositionOnScreen,
-                quaternion.identity).GetComponent<Asteroid>();
+                randomPositionOnScreen, quaternion.identity);
+
             // Set size and init sprite cause of this size
-            tempAsteroid.AsterdSize = asteroidSize;
-            tempAsteroid.InitSpite();
+            tempAsteroid.GetComponent<Asteroid>().Init(asteroidSize);
+            tempAsteroid.GetComponent<Asteroid>().RandomDirectionAndForce();
         }
 
 
@@ -72,6 +74,7 @@ namespace Sripts
         }
 
         public Dictionary<AsteroidSize, Sprite[]> AsteroidSizeToSprite => asteroidSizeToSprite;
+        public GameObject AsteroidPrefab => asteroidPrefab;
 
         #endregion
     }

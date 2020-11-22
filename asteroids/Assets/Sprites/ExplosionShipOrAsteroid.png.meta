@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 0b8d4c4b83fcd064f882d4e1715c35d5
+guid: 5b8ef4af83abe9d4095047009db7d9f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5986030973748356752
-    second: Explosion_0
+      213: -1137329933914059319
+    second: ExplosionShipOrAsteroid_0
   - first:
-      213: -5600206312213581617
-    second: Explosion_1
+      213: -1427187903097354813
+    second: ExplosionShipOrAsteroid_1
   - first:
-      213: 3815954189206336483
-    second: Explosion_2
+      213: 2995659511085781438
+    second: ExplosionShipOrAsteroid_2
   - first:
-      213: -3690502768834906923
-    second: Explosion_3
+      213: -2840942689232456564
+    second: ExplosionShipOrAsteroid_3
   - first:
-      213: -49130668184793455
-    second: Explosion_4
+      213: -286410980471771952
+    second: ExplosionShipOrAsteroid_4
   - first:
-      213: -2330519403281856691
-    second: Explosion_5
+      213: -8632826958455440925
+    second: ExplosionShipOrAsteroid_5
   - first:
-      213: -4796932125324312052
-    second: Explosion_6
-  - first:
-      213: 4348620978117878488
-    second: Explosion_7
+      213: 5814348556992929259
+    second: ExplosionShipOrAsteroid_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +64,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -137,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_0
+      name: ExplosionShipOrAsteroid_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 096a1cc8477a21350800000000000000
-      internalID: 5986030973748356752
+      spriteID: 9cd42a073746730f0800000000000000
+      internalID: -1137329933914059319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_1
+      name: ExplosionShipOrAsteroid_1
       rect:
         serializedVersion: 2
         x: 64
@@ -172,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0fb9bb7021842b0800000000000000
-      internalID: -5600206312213581617
+      spriteID: 3c5c528e92c913ce0800000000000000
+      internalID: -1427187903097354813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_2
+      name: ExplosionShipOrAsteroid_2
       rect:
         serializedVersion: 2
         x: 128
@@ -193,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3bec60e1ef4f430800000000000000
-      internalID: 3815954189206336483
+      spriteID: eb1d9422478b29920800000000000000
+      internalID: 2995659511085781438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_3
+      name: ExplosionShipOrAsteroid_3
       rect:
         serializedVersion: 2
         x: 192
@@ -214,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4fffce843b8ccc0800000000000000
-      internalID: -3690502768834906923
+      spriteID: c847e051da1f298d0800000000000000
+      internalID: -2840942689232456564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_4
+      name: ExplosionShipOrAsteroid_4
       rect:
         serializedVersion: 2
         x: 256
@@ -235,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19e8447eae3715ff0800000000000000
-      internalID: -49130668184793455
+      spriteID: 0dc65311bb6760cf0800000000000000
+      internalID: -286410980471771952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_5
+      name: ExplosionShipOrAsteroid_5
       rect:
         serializedVersion: 2
         x: 320
@@ -256,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47ca3943f458afd0800000000000000
-      internalID: -2330519403281856691
+      spriteID: 3e9f8d5be99023880800000000000000
+      internalID: -8632826958455440925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_6
+      name: ExplosionShipOrAsteroid_6
       rect:
         serializedVersion: 2
         x: 384
@@ -277,29 +274,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c028262b5afdd6db0800000000000000
-      internalID: -4796932125324312052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Explosion_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d227875db7695c30800000000000000
-      internalID: 4348620978117878488
+      spriteID: bed5ed3f437b0b050800000000000000
+      internalID: 5814348556992929259
       vertices: []
       indices: 
       edges: []

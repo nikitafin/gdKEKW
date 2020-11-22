@@ -54,15 +54,37 @@ namespace Sripts
         public static void Wrap(GameObject gameObject)
         {
             Vector2 position = gameObject.transform.position;
-            if (position.x > ScreenRight || position.x < ScreenLeft)
+            // if (position.x > ScreenRight || position.x < ScreenLeft)
+            // {
+            //     position.x *= -1;
+            //     position.x 
+            // }
+            //
+            // if (position.y > ScreenTop || position.y < ScreenBottom)
+            // {
+            //     position.y *= -1;
+            // }
+
+            if (position.x > ScreenRight)
             {
-                position.x *= -1;
+                position.x = ScreenLeft + 0.1f;
             }
 
-            if (position.y > ScreenTop || position.y < ScreenBottom)
+            if (position.x < ScreenLeft)
             {
-                position.y *= -1;
+                position.x = ScreenRight - 0.1f;
             }
+
+            if (position.y > ScreenTop)
+            {
+                position.y = ScreenBottom + 0.1f;
+            }
+
+            if (position.y < ScreenBottom)
+            {
+                position.y = ScreenTop - 0.1f;
+            }
+
 
             gameObject.transform.position = position;
         }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace Sripts
@@ -9,35 +7,26 @@ namespace Sripts
     {
         private GameObject mainObject;
         private Main mainScript;
+        private AsteroidSpawner asteroidSpawnerScript;
 
         private SpriteRenderer spriteRenderer;
         private Rigidbody2D rg2D;
-        private AsteroidSize asterdSize;
+        private AsteroidSize asteroidSize;
+
+        // physics
         private Vector2 thrustDirection;
         private const float ThrustMagnitude = 10f;
         private const float MaxSpeed = 5.45f;
 
-        public void InitSpite()
-        {
-            if (AsterdSize != AsteroidSize.None)
-            {
-                spriteRenderer.sprite =
-                    mainScript.AsteroidSizeToSprite[asterdSize][
-                        Random.Range(0, mainScript.AsteroidSizeToSprite[asterdSize].Length)];
-            }
-        }
+        #region UnityBase
 
         private void Awake()
         {
             mainObject = GameObject.Find("Main");
             mainScript = mainObject.GetComponent<Main>();
-
+            asteroidSpawnerScript = mainObject.GetComponent<AsteroidSpawner>();
             spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
             rg2D = gameObject.GetComponent<Rigidbody2D>();
-
-            thrustDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
-            rg2D.AddForce(thrustDirection * ThrustMagnitude, ForceMode2D.Impulse);
-            // velocity = new Vector2(Random.value * MaxSpeed, Random.value * MaxSpeed);
         }
 
         private void FixedUpdate()
@@ -49,27 +38,71 @@ namespace Sripts
             rg2D.velocity = tempVelocity;
 
             // slightly tune direction
-            if (Random.value > 0.95f)
+            if (Random.value > 0.90f)
             {
                 rg2D.rotation += Random.Range(-0.125f, 0.125f);
             }
 
+            // wrap 
             ScreenWrapper.Wrap(gameObject);
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        #endregion
+
+        #region OwnBaseFuncs
+
+        /// <summary>
+        /// Basic setup asteroid object
+        /// Sets size of asteroid, set sprite, generate direction and add force
+        /// </summary>
+        /// <param name="size">Size of Asteroid</param>
+        public void Init(AsteroidSize size)
         {
-            if (other.gameObject.CompareTag("Bullet"))
-            {
-                Destroy(gameObject);
-                other.gameObject.GetComponent<Bullet>().Destrucion();
-            }
+            // set size
+            asteroidSize = size;
+            // set spite
+            spriteRenderer.sprite =
+                mainScript.AsteroidSizeToSprite[size][
+                    Random.Range(0, mainScript.AsteroidSizeToSprite[size].Length)];
+            gameObject.name = "Asteroid";
         }
+
+        public void RandomDirectionAndForce()
+        {
+            // set direction, add force
+            thrustDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+            rg2D.AddForce(new Vector2(Random.Range(1, 5), Random.Range(1, 5)) * thrustDirection * ThrustMagnitude,
+                ForceMode2D.Impulse);
+        }
+
+        public void RandomForce(Vector2 direction)
+        {
+            thrustDirection = direction;
+            rg2D.AddForce(new Vector2(Random.Range(1, 5), Random.Range(1, 5)) * thrustDirection * ThrustMagnitude,
+                ForceMode2D.Impulse);
+        }
+
+        public void Destruction()
+        {
+            if (asteroidSize == AsteroidSize.Large)
+            {
+                asteroidSpawnerScript.GenerateSmallerAsteroids(AsteroidSize.Medium, transform.position,
+                    transform.rotation, rg2D.velocity);
+            }
+            else if (asteroidSize == AsteroidSize.Medium)
+            {
+                asteroidSpawnerScript.GenerateSmallerAsteroids(AsteroidSize.Small, transform.position,
+                    transform.rotation, rg2D.velocity);
+            }
+
+            Destroy(gameObject);
+        }
+
+        #endregion
 
         #region Properties
 
-        public AsteroidSize AsterdSize { get; set; }
-        public Vector2 Direction { get; set; }
+        public Vector2 ThrustDirection { get; set; }
 
         #endregion
     }

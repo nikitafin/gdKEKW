@@ -33,9 +33,8 @@ public class Player : MonoBehaviour
         turnInput = Input.GetAxis("Horizontal");
         if (Input.GetButtonDown("Shoot"))
         {
-            var bullet = GameObject.Instantiate(bulletPrefab, transform.position, transform.rotation);
-            var bulletScript = bullet.GetComponent<Bullet>();
-            bulletScript.Direction = direction;
+            var bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
+            bullet.GetComponent<Bullet>().Init(direction);
         }
 
         animator.SetBool("isOn", engineInput != 0);
