@@ -1,13 +1,20 @@
 ﻿namespace Resources.Script
 {
-	public enum State { Start, Play }
-	public static class GameSate
-	{
-		public static State CurrentSate { get; set; }
+    /// <summary>
+    /// Possible game sates
+    /// </summary>
+    public enum State { Start, Play, Pause }
 
-		public static void Init()
-		{
-			CurrentSate = State.Start;
-		}
-	}
+    /// <summary>
+    /// Provide basic state machine
+    /// </summary>
+    public static class GameSate
+    {
+        public static State CurrentSate { get; set; }
+
+        public static void Init()
+        {
+            CurrentSate = State.Start;
+        }
+    }
 }
