@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class GizmosUtils : MonoBehaviour
 {
-    private float ScreenWidth { get; set; }
-
     private void Awake()
     {
-        ScreenWidth = Screen.width;
+        Debug.Log("GizmosUtils setup");
     }
 
     private void FixedUpdate()
     {
-        Debug.DrawLine(new Vector3(-1F, 1F) * (ScreenWidth * 0.25F), 
-            new Vector3(-1F,-1F) * (ScreenWidth * 0.25F),
-            Color.red);
+        Debug.DrawLine(new Vector3(-Stuff.CameraWidth * 0.5f, Stuff.CameraHeight, 0f),
+            new Vector3(-Stuff.CameraWidth * 0.5f, -Stuff.CameraHeight, 0f), Color.red);
+
+        Debug.DrawLine(new Vector3(Stuff.CameraWidth * 0.5f, Stuff.CameraHeight, 0f),
+            new Vector3(Stuff.CameraWidth * 0.5f, -Stuff.CameraHeight, 0f), Color.green);
     }
 }
