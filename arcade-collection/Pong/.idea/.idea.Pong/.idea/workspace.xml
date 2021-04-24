@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f13dcef1-55ab-4ca1-b409-d7fad4f2c762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GizmosUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GizmosUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/.idea/.idea.apple-picker/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/HUD/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/_ree1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/_ree1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/apple-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/apple-red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/banana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/banana.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/fruit-basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/fruit-basket.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/pear-yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/pear-yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/tree1-outliner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Assets/tree1-outliner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Font/font.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Font/font.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Apple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Apple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Banana.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Banana.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Pear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Prefabs/Pear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/BasketController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/BasketController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/Fruit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/Fruit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/GameController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/GameInitializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/GameInitializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/LifesCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/LifesCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/ScreenWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/ScreenWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/SetCameraBounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/SetCameraBounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/SpawnFruit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Resources/Scripts/SpawnFruit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apple-picker/UserSettings/EditorUserSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Bullet.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Bullet.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Bullet.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Bullet.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletDestroyd.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletDestroyd.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletExplosion.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletExplosion.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletOut.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/BulletOut.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/EngineOff.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/EngineOff.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/EngineOn.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/EngineOn.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Animations/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Materials/New Physics Material 2D.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Materials/New Physics Material 2D.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Asteroid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Asteroid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Bullet_old.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Prefabs/Bullet_old.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Asteroids.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Asteroids.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/BackGrounds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/BackGrounds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Bullet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Cursor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Explosion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/ExplosionShipOrAsteroid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/ExplosionShipOrAsteroid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Ship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Ship.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Shoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/Shoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/larg_asteroid_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/medium_asteroid_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/asteroids/small_asteroid_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/pgpicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sprites/pgpicon.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Asteroid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Asteroid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/AsteroidSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/AsteroidSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Bullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/GameUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/GameUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Main.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Planet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Planet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/ScreenWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/ScreenWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Sripts/Timer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds2_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds2_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackGrounds_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/Background.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/Background.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackgroundSecondVer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Assets/Tile/BackgroundSecondVer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/TimelineSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/test0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/test1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../asteroids/test2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.idea/.idea.breakout/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Fonts/font.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Fonts/font.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Materials/BallMaterial.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Materials/BallMaterial.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Materials/Edge.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Materials/Edge.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Prefabs/Ball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Prefabs/Ball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Prefabs/Block.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Prefabs/Block.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Ball.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Ball.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Block.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Block.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/GameController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Init.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Paddle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/Paddle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/ScreenEdgeColliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/ScreenEdgeColliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/ScreenWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Scripts/ScreenWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/Ball-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/Ball-blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/Paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/Paddle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Resources/Sprites/block-red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../breakout/UserSettings/EditorUserSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Font/font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Font/font.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Materials/BallMaterial.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Materials/BallMaterial.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Materials/EdgeMaterial.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Materials/EdgeMaterial.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Prefab/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Prefab/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/BallScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/BallScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/FPSCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/FPSCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/GameController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/GameSate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/GameSate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/ScreenEdgeColliders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/ScreenEdgeColliders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/ScreenWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Script/ScreenWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Sprites/blue-ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Sprites/blue-ball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Sprites/paddle-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Resources/Sprites/paddle-blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/TimelineSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pong/UserSettings/EditorUserSettings.asset" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Touch.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GizmosUtils.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1rbr0FmUea4yWCsbx6QzFGPrEcG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f13dcef1-55ab-4ca1-b409-d7fad4f2c762" name="Default Changelist" comment="" />
+      <created>1619255411434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619255411434</updated>
+      <workItem from="1619255423127" duration="1743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
